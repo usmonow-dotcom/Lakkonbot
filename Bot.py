@@ -6,4 +6,4 @@ bot = telebot.TeleBot("8970808690:AAHpSXLaDk1knzJ3mnMKFuJETFfqEAm8bqs")
 def reply(message):
     bot.reply_to(message, "Привет! Я работаю.")
 
-bot.infinity_polling()
+bot.infinity_polling() 
